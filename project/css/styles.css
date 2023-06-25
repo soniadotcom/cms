@@ -1,0 +1,26 @@
+body {
+    font-size: 16px;
+}
+
+
+/* Pager on index.php */
+.pager li {
+    background: white;
+    color: #337ab7;
+}
+
+.pager li .active_link {
+    background: #337ab7;
+    color: white;
+}
+
+.pager li>a, .pager li>span {
+    border: none;
+    padding: 7px 14px;
+}
+
+.pager li>a.active_link:hover, .pager li>span:hover {
+    background: #2e6da4 !important;
+    background-color: #2e6da4 !important;
+}
+
